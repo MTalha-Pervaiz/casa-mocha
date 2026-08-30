@@ -1,7 +1,7 @@
 {
   "framework": "vite",
-  "installCommand": "pnpm install --no-frozen-lockfile",
-  "buildCommand": "pnpm --filter @workspace/casa-mocha run build",
+  "installCommand": "npm install --prefix artifacts/casa-mocha --legacy-peer-deps",
+  "buildCommand": "npm --prefix artifacts/casa-mocha run build",
   "outputDirectory": "artifacts/casa-mocha/dist/public",
   "rewrites": [
     {
