@@ -1,6 +1,6 @@
 {
   "framework": "vite",
-  "installCommand": "pnpm install --frozen-lockfile",
+  "installCommand": "pnpm install --no-frozen-lockfile",
   "buildCommand": "pnpm --filter @workspace/casa-mocha run build",
   "outputDirectory": "artifacts/casa-mocha/dist/public",
   "rewrites": [
